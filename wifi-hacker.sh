@@ -6,10 +6,10 @@
 ############################################################################
 
 
-# WiFi Hacker v2.0
-# esc0rtd3w 2019
+# Team Zonared XXII v2.0
+# WifiHack XXII 2021
 
-# https://github.com/esc0rtd3w/wifi-hacker/
+# https://github.com/zonaredXXII/WifiHackXXII.git
 
 # Uses parts of the aircrack-ng suite, reaver, wifite, and many other tools
 
@@ -1207,7 +1207,7 @@ banner(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [M] Main Menu    |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2019  /  github.com/esc0rtd3w *    | [X] Exit           |"
+	echo "|  [M] Main Menu    |    * WiFi Hacker v$versionBase  /  WifiHack XXII 2021  /  https://github.com/zonaredXXII/WifiHackXXII.git *    | [X] Exit           |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$yellow
 	echo "-------------------------------------------------------------------------------------------------------------------"
@@ -1228,7 +1228,7 @@ bannerNoMenu(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ CTRL+C ] Main  |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2019  /  github.com/esc0rtd3w *    | [CTRL+C x2 ] Exit  |"
+	echo "|  [ CTRL+C ] Main  |    * Team Zonared XXII v$versionBase  /  WifiHack XXII 2021  /  https://github.com/zonaredXXII/WifiHackXXII.git *    | [CTRL+C x2 ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$yellow
 	echo "-------------------------------------------------------------------------------------------------------------------"
@@ -1249,7 +1249,7 @@ bannerMain(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2019  /  github.com/esc0rtd3w *    | [CTRL+C    ] Exit  |"
+	echo "|  [ ]              |    * Team Zonared XXII v$versionBase  /  WifiHack XXII 2021  /  https://github.com/zonaredXXII/WifiHackXXII.git *    | [CTRL+C    ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	echo "-------------------------------------------------------------------------------------------------------------------"
 	$yellow
@@ -1269,7 +1269,7 @@ bannerMenu(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2019  /  github.com/esc0rtd3w *    | [CTRL+C    ] Exit  |"
+	echo "|  [ ]              |    * Team Zonared XXII v$versionBase  /  WifiHack XXII 2021  /  https://github.com/zonaredXXII/WifiHackXXII.git *    | [CTRL+C    ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$yellow
 	echo "-------------------------------------------------------------------------------------------------------------------"
@@ -1289,7 +1289,7 @@ bannerSlim(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2019  /  github.com/esc0rtd3w *    | [CTRL+C    ] Exit  |"
+	echo "|  [ ]              |    * Team Zonared XXII v$versionBase  /  WifiHack XXII 2021  /  https://github.com/zonaredXXII/WifiHackXXII.git *    | [CTRL+C    ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$white
 
@@ -1329,7 +1329,7 @@ bannerExit(){
 	$cyan
 	echo "View My Other Projects On GitHub:"
 	echo ""
-	echo "https://github.com/esc0rtd3w"
+	echo "https://github.com/zonaredXXII/WifiHackXXII.git"
 	echo ""
 	echo ""
 
@@ -1360,13 +1360,13 @@ bannerExitUpdate(){
 	$blue
 	echo "Thank You For Playing Fair ;)"
 	echo ""
-	echo "esc0rtd3w 2019"
+	echo "WifiHack XXII 2021"
 	echo ""
 	echo ""
 	$cyan
 	echo "View My Other Projects On GitHub:"
 	echo ""
-	echo "https://github.com/esc0rtd3w"
+	echo "https://github.com/zonaredXXII/WifiHackXXII.git"
 	echo ""
 	echo ""
 
@@ -1778,12 +1778,12 @@ checkRootStatus(){
 
 	case "$isRoot" in
 
-		"root")
-		userPriv="root"
+		"no root")
+		userPriv="no root"
 
 	esac
 
-	if [ "$userPriv" != "root" ]; then
+	if [ "$userPriv" != "no root" ]; then
 		noRootAccess
 	fi
 
